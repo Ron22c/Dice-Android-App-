@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button rollButton = (Button) findViewById(R.id.rollbutton);
-        ImageView leftDice = (ImageView) findViewById(R.id.image_leftdice);
-        ImageView rightDice = (ImageView) findViewById(R.id.image_rightdice);
+        Button rollButton = (Button) findViewById(R.id.rollButton);
+        ImageView leftDice = (ImageView) findViewById(R.id.image_leftDice);
+        ImageView rightDice = (ImageView) findViewById(R.id.image_rightDice);
 
         final int diceArr[] = {
                 R.drawable.dice1,
